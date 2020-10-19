@@ -136,14 +136,6 @@ const vendor = gulp.series(clean, modules);
 const build = gulp.series(vendor, gulp.parallel(css, js));
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
 
-gulp.task('serveprod', function() {
-  connect.server({
-    root: [your_project_path],
-    port: process.env.PORT || 5000, // localhost:5000
-    livereload: false
-  });
-});
-
 // Export tasks
 exports.css = css;
 exports.js = js;
