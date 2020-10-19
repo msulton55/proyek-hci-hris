@@ -1,0 +1,54 @@
+/*
+  Below is css code for customize overflow scrollbar.
+  source (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_scrollbar)
+*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/* End of Overflow scrollbar! */
+
+/* User-defined CSS */
+
+.sidebar.toggled .nav-item .collapse {
+  position: fixed;
+  top: 30%;
+}
+
+@media (max-width: 575.98px) {
+  .sidebar .nav-item .collapse {
+    position: fixed;
+    top: 30%;
+  }
+
+  .h-100 {
+    height: auto!important;
+  }
+
+  .card.shadow.h-100.py-2 {
+    margin-bottom: 1rem;
+  }
+
+  .card-header.py-3.d-flex.flex-row.align-items-center.justify-content-between {
+    flex-flow: wrap;
+  }
+
+  .no-height {
+    height: auto !important;
+  }
+}
