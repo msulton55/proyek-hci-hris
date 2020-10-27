@@ -3,7 +3,8 @@
     "name": "hris-admin-package-configuration",
     "version": "4.1.1",
     "scripts": {
-        "start": "npx gulp watch"
+        "start": "npx gulp watch",
+        "build": "npx gulp build"
     },
     "description": "Ini adalah npm configuration untuk project ini",
     "keywords": [
