@@ -1,2 +1,27 @@
-# proyek-hci-hris
-Proyek UTS membuat frontend Human Resources Information System mata kuliah Interaksi Manusia dan Komputer
+# Proyek Tengah Semester [HCI-HRIS](https://proyek-hci-hris.herokuapp.com)
+
+## Anggota Kelompok
+1. Muhammad Sulton Tauhid (1606905885)
+2. Eko (17)
+3. Alwan (17)
+
+## Deskripsi tugas proyek
+Membuat sistem frontend Human Resources Information System
+
+## Penjelasan umum
+Proyek ini adalah sistem frontend yang dapat digunakan untuk sistem perusahaan atau sistem civitas akademika kampus. Sistem ini dapat memasukkan user input dan juga sebagai user output
+
+## Fitur halaman
+Fitur halaman yang disediakan terdiri dari 5 fitur utama:
+1. Dashboard
+2. Ringkasan
+3. Riwayat
+4. Dokumen
+5. Kegiatan
+
+## Cara Menggunakan (localhost)
+1. Pindah terlebih dahulu ke **branch development**
+2. Lakukan **git clone** pada repositori branch development
+3. Lakukan **[npm](https://nodejs.org/en/download/) install** di dalam directory folder proyek ini
+4. Setelah folder **node_modules terinstall**, lakukan **npm run start** pada command prompt atau CLI untuk memulai localhost development
+5. Sistem frontend berhasil dijalankan
