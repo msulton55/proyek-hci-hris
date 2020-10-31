@@ -19,7 +19,7 @@
 
   <title>SIAK | Dashboards</title>
 </head>
-<body id="page-top">
+<body id="page-top" style="overflow: hidden;">
 
   <!--Main wrapper container-->
   <div id="wrapper">
@@ -54,87 +54,39 @@
       <!-- Main Nav Item Container -->
       <div style="height: 400px; overflow-y: scroll; overflow-x: hidden;">
 
-        <!-- Nav Item - Pages Collapse Profile Pekerjaan -->
+        <!-- Nav Item - Ringkasan page -->
         <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#profileOne" aria-expanded="true" aria-controls="profileOne">
+          <a class="nav-link" href="./ringkasan.html">
             <i class="far fa-id-badge"></i>
-            <span>Profile Pekerjaan</span>
+            <span>Ringkasan</span>
           </a>
-          <div id="profileOne" class="collapse" aria-labelledby="profileOne" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="./ringkasan.html">Ringkasan</a>
-              <a class="collapse-item" href="./riwayat.html">Riwayat</a>
-              <a class="collapse-item" href="./absensi.html">Absensi</a>
-            </div>
-          </div>
         </li>
 
-        <!-- Nav Item - Pages Collapse Kalendar Perusahaan -->
+        <!-- Nav Item - Riwayat page -->
         <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#calendarTwo" aria-expanded="true" aria-controls="calendarTwo">
+          <a class="nav-link" href="./riwayat.html">
             <i class="far fa-calendar-alt"></i>
-            <span>Kalender Perusahaan</span>
+            <span>Riwayat</span>
           </a>
-          <div id="calendarTwo" class="collapse" aria-labelledby="calendarTwo" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="./kalender_kegiatan_perusahaan.html">Kalender Kegiatan</a>
-            </div>
-          </div>
         </li>
 
-        <!-- Nav Item - Pages Collapse Pekerjaan Divisi -->
+        <!-- Nav Item - Pages Collapse Dokumen -->
         <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#jobsDivisionThree" aria-expanded="true" aria-controls="jobsDivisionThree">
+          <a class="nav-link" href="./dokumen.html">
             <i class="far fa-list-alt"></i>
-            <span>Pekerjaan Divisi</span>
+            <span>Dokumen</span>
           </a>
-          <div id="jobsDivisionThree" class="collapse" aria-labelledby="jobsDivisionThree" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="./kalender_kegiatan_divisi.html">Kalender Kegiatan</a>
-            </div>
-          </div>
         </li>
 
-        <!-- Nav Item - Pages Collapse Mata Kuliah Spesial -->
+        <!-- Nav Item - Pages Collapse Kegiatan -->
         <li class="nav-item">
           <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#specialSubjectFour" aria-expanded="true" aria-controls="specialSubjectFour">
             <i class="fas fa-graduation-cap"></i>
-            <span>Mata Kuliah Spesial</span>
+            <span>Kegiatan</span>
           </a>
           <div id="specialSubjectFour" class="collapse" aria-labelledby="specialSubjectFour" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="./bimbingan.html">Bimbingan</a>
-              <a class="collapse-item" href="./tugas_akhir.html">Tugas Akhir</a>
-              <a class="collapse-item" href="./unggah_ui.html">Pengunggahan UIana</a>
-            </div>
-          </div>
-        </li>
-
-        <!-- Nav Item - Pages Collapse IRS -->
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#irsFive" aria-expanded="true" aria-controls="irsFive">
-            <i class="fas fa-plus-circle"></i>
-            <span>IRS</span>
-          </a>
-          <div id="irsFive" class="collapse" aria-labelledby="irsFive" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="./isi_ubah_irs.html">Isi/Ubah IRS</a>
-              <a class="collapse-item" href="./kirim_pesan_pa.html">Kirim Pesan ke PA</a>
-            </div>
-          </div>
-        </li>
-
-        <!-- Nav Item - Pages Collapse Mahasiswa -->
-        <li class="nav-item">
-          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#studentSix" aria-expanded="true" aria-controls="studentSix">
-            <i class="fas fa-user-graduate"></i>
-            <span>Mahasiswa</span>
-          </a>
-          <div id="studentSix" class="collapse" aria-labelledby="studentSix" data-parent="#accordionSidebar">
-            <div class="bg-white py-2 collapse-inner rounded">
-              <a class="collapse-item" href="./lihat_idm.html">Lihat IDM</a>
-              <a class="collapse-item" href="./ubah_idm.html">Ubah IDM</a>
-              <a class="collapse-item" href="./dokumen.html">Dokumen</a>
+              <a class="collapse-item" href="./jadwal_keseluruhan.html">Jadwal Keseluruhan</a>
             </div>
           </div>
         </li>
@@ -182,17 +134,9 @@
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="./profile.html">
                   <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                   Profile
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Settings
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Activity Log
                 </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="./login.html">
@@ -218,52 +162,217 @@
           <!-- Content Row -->
           <div class="row mb-4" style="height: calc(100vh - 175px);">
           
-            <!-- Employee Information -->
-            <div class="col-xl-4 col-md-4 h-100">
+            <!-- Weekly Task Information -->
+            <div class="col-xl-4 col-md-4 h-100" id="accordionTask">
               <div class="card shadow h-100 py-2">
 
                 <!-- Card Header -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h5 class="text-gray-800">Informasi Pengguna</h5>
+                  <h5 class="text-gray-800">Tugas Mingguan</h5>
                 </div>
 
                 <!-- Card Body -->
-                <div class="card-body">
+                <div class="card-body" style="overflow: scroll;">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
 
-                      <div class="card border-0">
-                        <div class="card-body">
-                          <h6 class="text-gray-800">Username</h6>
-                          <span class="text-gray-500 ml-3">muhammad.sulton</span>
+                      <div class="card bg-light text-black shadow">
+                        <div class="d-block card-header collapsed py-3" data-toggle="collapse" data-target="#tugasSenin" aria-expanded="true" aria-controls="tugasSenin" role="button">
+                          <span>Senin</span>
+                        </div>
+                        <div class="collapse" id="tugasSenin" aria-labelledby="tugasSenin" data-parent="#accordionTask">
+                          <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                              <div class="col mr-2">
+                                <div class="table-responsive">
+                                  <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                      <tr>
+                                        <th>Aktivitas</th>
+                                        <th>Lokasi</th>
+                                        <th>Waktu Mulai</th>
+                                        <th>Waktu Selesai</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Meeting Client</td>
+                                        <td>Menara Kuningan</td>
+                                        <td>10.00</td>
+                                        <td>14.00</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Rapat Internal</td>
+                                        <td>SIAK NG Office</td>
+                                        <td>15.00</td>
+                                        <td>17.00</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
 
-                      <div class="card border-0">
-                        <div class="card-body">
-                          <h6 class="text-gray-800">Kode Identitas</h6>
-                          <span class="text-gray-500 ml-3">1606905885</span>
+                      <div class="card bg-light text-black shadow">
+                        <div class="d-block card-header collapsed py-3" data-toggle="collapse" data-target="#tugasSelasa" aria-expanded="true" aria-controls="tugasSelasa" role="button">
+                          <span>Selasa</span>
+                        </div>
+                        <div class="collapse" id="tugasSelasa" aria-labelledby="tugasSelasa" data-parent="#accordionTask">
+                          <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                              <div class="col mr-2">
+                                <div class="table-responsive">
+                                  <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                      <tr>
+                                        <th>Aktivitas</th>
+                                        <th>Lokasi</th>
+                                        <th>Waktu Mulai</th>
+                                        <th>Waktu Selesai</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Meeting Client</td>
+                                        <td>Menara Kuningan</td>
+                                        <td>10.00</td>
+                                        <td>14.00</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Rapat Internal</td>
+                                        <td>SIAK NG Office</td>
+                                        <td>15.00</td>
+                                        <td>17.00</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
 
-                      <div class="card border-0">
-                        <div class="card-body">
-                          <h6 class="text-gray-800">Role</h6>
-                          <span class="text-gray-500 ml-3">Mahasiswa</span>
+                      <div class="card bg-light text-black shadow">
+                        <div class="d-block card-header collapsed py-3" data-toggle="collapse" data-target="#tugasRabu" aria-expanded="true" aria-controls="tugasRabu" role="button">
+                          <span>Rabu</span>
+                        </div>
+                        <div class="collapse" id="tugasRabu" aria-labelledby="tugasRabu" data-parent="#accordionTask">
+                          <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                              <div class="col mr-2">
+                                <div class="table-responsive">
+                                  <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                      <tr>
+                                        <th>Aktivitas</th>
+                                        <th>Lokasi</th>
+                                        <th>Waktu Mulai</th>
+                                        <th>Waktu Selesai</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Meeting Client</td>
+                                        <td>Menara Kuningan</td>
+                                        <td>10.00</td>
+                                        <td>14.00</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Rapat Internal</td>
+                                        <td>SIAK NG Office</td>
+                                        <td>15.00</td>
+                                        <td>17.00</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card bg-light text-black shadow">
+                        <div class="d-block card-header collapsed py-3" data-toggle="collapse" data-target="#tugasKamis" aria-expanded="true" aria-controls="tugasKamis" role="button">
+                          <span>Kamis</span>
+                        </div>
+                        <div class="collapse" id="tugasKamis" aria-labelledby="tugasKamis" data-parent="#accordionTask">
+                          <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                              <div class="col mr-2">
+                                <div class="table-responsive">
+                                  <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                      <tr>
+                                        <th>Aktivitas</th>
+                                        <th>Lokasi</th>
+                                        <th>Waktu Mulai</th>
+                                        <th>Waktu Selesai</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Meeting Client</td>
+                                        <td>Menara Kuningan</td>
+                                        <td>10.00</td>
+                                        <td>14.00</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Rapat Internal</td>
+                                        <td>SIAK NG Office</td>
+                                        <td>15.00</td>
+                                        <td>17.00</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                       
-                      <div class="card border-0">
-                        <div class="card-body">
-                          <h6 class="text-gray-800">Jalur Penerimaan</h6>
-                          <span class="text-gray-500 ml-3">SIMAK Reguler</span>
+                      <div class="card bg-light text-black shadow">
+                        <div class="d-block card-header collapsed py-3" data-toggle="collapse" data-target="#tugasJumat" aria-expanded="true" aria-controls="tugasJumat" role="button">
+                          <span>Jumat</span>
                         </div>
-                      </div>
-
-                      <div class="card border-0">
-                        <div class="card-body">
-                          <h6 class="text-gray-800">Email</h6>
-                          <span class="text-gray-500 ml-3">muhammad.sulton@ui.ac.id</span>
+                        <div class="collapse" id="tugasJumat" aria-labelledby="tugasJumat" data-parent="#accordionTask">
+                          <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                              <div class="col mr-2">
+                                <div class="table-responsive">
+                                  <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                      <tr>
+                                        <th>Aktivitas</th>
+                                        <th>Lokasi</th>
+                                        <th>Waktu Mulai</th>
+                                        <th>Waktu Selesai</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Meeting Client</td>
+                                        <td>Menara Kuningan</td>
+                                        <td>10.00</td>
+                                        <td>14.00</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Rapat Internal</td>
+                                        <td>SIAK NG Office</td>
+                                        <td>15.00</td>
+                                        <td>17.00</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
 
@@ -369,5 +478,8 @@
   <!-- Page level custom scripts -->
   <script src="js/demo/chart-area-demo.js"></script>
   <script src="js/demo/chart-pie-demo.js"></script>
+
+  <!-- User defined script -->
+  <script src="js/user-script.js"></script>
 </body>
 </html>
