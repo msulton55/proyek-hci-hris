@@ -155,18 +155,108 @@
           <!-- Content Row -->
           <div class="row mb-4">
             
-            <!-- Tabel Grafik Performa -->
+            <!-- Tabel status karyawan -->
             <div class="col-xl col-md h-100">
-              <!-- Bar Chart -->
-              <div class="card shadow h-100">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Grafik Performa</h6>
+              <div class="card shadow h-100 py-2">
+                
+                <!-- Card Header -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h5 class="text-gray-800">Status Dokumen</h5>
                 </div>
-                <div class="card-body">
-                  <div class="chart-bar">
-                    <canvas id="myBarChart"></canvas>
+
+                <!-- Card Body -->
+                <div class="card-body" style="overflow-y: scroll;">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      
+                      <div class="table-responsive" style="overflow: hidden;">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                          <thead>
+                            <tr>
+                              <th>Nama Karyawan</th>
+                              <th>Posisi</th>
+                              <th>Nama Dokumen</th>
+                              <th>Status Dokumen</th>
+                              <th>Pilihan</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>Tiger Nixon</td>
+                              <td>System Architect</td>
+                              <td>Proposal Projek Jaringan</td>
+                              <td>
+                                <div class="card bg-danger text-white shadow" style="width: fit-content;">
+                                  <div class="card-body" style="padding: .25rem;">
+                                    Belum diproses
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <a href="./lihat_dokumen.html" class="btn btn-primary btn-icon-split">
+                                  <span class="text">Lihat Dokumen</span>
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Garrett Winters</td>
+                              <td>Accountant</td>
+                              <td>Audit Pemasukkan Kuartal pertama</td>
+                              <td>
+                                <div class="card bg-warning text-white shadow" style="width: fit-content;">
+                                  <div class="card-body" style="padding: .25rem;">
+                                    Sedang diproses
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <a href="./lihat_dokumen.html" class="btn btn-primary btn-icon-split">
+                                  <span class="text">Lihat Dokumen</span>
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Ashton Cox</td>
+                              <td>Junior Technical Author</td>
+                              <td>Request editing</td>
+                              <td>
+                                <div class="card bg-success text-white shadow" style="width: fit-content;">
+                                  <div class="card-body" style="padding: .25rem;">
+                                    Selesai diproses
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <a href="./lihat_dokumen.html" class="btn btn-primary btn-icon-split">
+                                  <span class="text">Lihat Dokumen</span>
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Cedric Kelly</td>
+                              <td>Senior Javascript Developer</td>
+                              <td>Pengajuan Code review</td>
+                              <td>
+                                <div class="card bg-warning text-white shadow" style="width: fit-content;">
+                                  <div class="card-body" style="padding: .25rem;">
+                                    Sedang diproses
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <a href="./lihat_dokumen.html" class="btn btn-primary btn-icon-split">
+                                  <span class="text">Lihat Dokumen</span>
+                                </a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+
+                    </div>
                   </div>
                 </div>
+
               </div>
             </div>
 
@@ -189,14 +279,10 @@
   <script src="js/sb-admin-2.min.js"></script>
 
   <!-- Page level plugins -->
-  <script src="assets/chart.js/Chart.min.js"></script>
+  <script src="assets/datatables/jquery.dataTables.min.js"></script>
+  <script src="assets/datatables/dataTables.bootstrap4.min.js"></script>
 
   <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
-  <script src="js/demo/chart-bar-demo.js"></script>
-
-  <!-- User defined script -->
-  <script src="js/user-script.js"></script>
+  <script src="js/demo/datatables-demo.js"></script>
 </body>
 </html>
