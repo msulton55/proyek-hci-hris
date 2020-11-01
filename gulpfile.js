@@ -79,6 +79,11 @@ function modules() {
       '!./node_modules/jquery/dist/core.js'
     ])
     .pipe(gulp.dest('./assets/jquery'));
+  // Summernote text editor
+  var summernote = gulp.src([
+    './node_modules/summernote/dist/**/*'
+    ])
+    .pipe(gulp.dest('./assets/summernote'));
   return merge(bootstrapJS, bootstrapSCSS, chartJS, dataTables, fontAwesome, jquery, jqueryEasing);
 }
 
