@@ -152,137 +152,104 @@
         <!-- End of Topbar -->
 
         <!-- Begin Page Content -->
-        <div class="container-fluid">
-        
-          <!-- Page Heading - Content Navigation -->
-          <div class="d-sm-flex align-items-center justify-content-sm-start mb-3">
-            <a href="./riwayat.html" style="text-decoration: none;">
-              <div class="card border">
-                <div class="card-body no-width" style="padding: 0.25rem; width: 200px; text-align: center;">
-                  <h3 class="mb-0 text-gray-800 h5">Berdasarkan Term</h3>
-                </div>
-              </div>
-            </a>
-            <a href="./riwayat_jobdesc.html" style="text-decoration: none;">
-              <div class="card border">
-                <div class="card-body no-width" style="padding: 0.25rem; width: 200px; text-align: center;">
-                  <h3 class="mb-0 text-gray-800 h5">Berdasarkan Jobdesc</h3>
-                </div>
-              </div>
-            </a>
-            <a href="./riwayat_tunjangan.html" style="text-decoration: none;">
-              <div class="card border bg-success">
-                <div class="card-body no-width" style="padding: 0.25rem; width: 200px; text-align: center;">
-                  <h3 class="mb-0 text-white h5">Tunjangan</h3>
-                </div>
-              </div>
-            </a>
-          </div>
+        <div class="container-fluid no-height" style="height: calc(100vh - 100px); overflow-y: scroll;">
 
           <!-- Content Row -->
-          <div class="row mb-4" style="height: calc(100vh - 175px);">
-            
-            <!-- Tabel tunjangan -->
+          <div class="row mb-4">
+          
+            <!-- Tabel status karyawan -->
             <div class="col-xl col-md h-100">
               <div class="card shadow h-100 py-2">
+                
+                <!-- Card Header -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                  <h5 class="text-gray-800">Jadwal Keseluruhan</h5>
+                </div>
 
                 <!-- Card Body -->
                 <div class="card-body" style="overflow-y: scroll;">
                   <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
                       
-                      <div class="table-responsive">
-                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                      <div class="table-responsive" style="overflow: hidden;">
+                        <table class="table table-bordered" id="dataTable2" width="100%" cellspacing="0">
                           <thead>
                             <tr>
-                              <th>Name</th>
-                              <th>Position</th>
-                              <th>Office</th>
-                              <th>Age</th>
-                              <th>Start date</th>
-                              <th>Salary</th>
+                              <th>Nama Karyawan</th>
+                              <th>Posisi</th>
+                              <th>Nama Dokumen</th>
+                              <th>Status Dokumen</th>
+                              <th>Pilihan</th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
                               <td>Tiger Nixon</td>
                               <td>System Architect</td>
-                              <td>Edinburgh</td>
-                              <td>61</td>
-                              <td>2011/04/25</td>
-                              <td>$320,800</td>
+                              <td>Proposal Projek Jaringan</td>
+                              <td>
+                                <div class="card bg-danger text-white shadow" style="width: fit-content;">
+                                  <div class="card-body" style="padding: .25rem;">
+                                    Belum diproses
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <a href="./lihat_dokumen.html" class="btn btn-primary btn-icon-split">
+                                  <span class="text">Lihat Dokumen</span>
+                                </a>
+                              </td>
                             </tr>
                             <tr>
                               <td>Garrett Winters</td>
                               <td>Accountant</td>
-                              <td>Tokyo</td>
-                              <td>63</td>
-                              <td>2011/07/25</td>
-                              <td>$170,750</td>
+                              <td>Audit Pemasukkan Kuartal pertama</td>
+                              <td>
+                                <div class="card bg-warning text-white shadow" style="width: fit-content;">
+                                  <div class="card-body" style="padding: .25rem;">
+                                    Sedang diproses
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <a href="./lihat_dokumen.html" class="btn btn-primary btn-icon-split">
+                                  <span class="text">Lihat Dokumen</span>
+                                </a>
+                              </td>
                             </tr>
                             <tr>
                               <td>Ashton Cox</td>
                               <td>Junior Technical Author</td>
-                              <td>San Francisco</td>
-                              <td>66</td>
-                              <td>2009/01/12</td>
-                              <td>$86,000</td>
+                              <td>Request editing</td>
+                              <td>
+                                <div class="card bg-success text-white shadow" style="width: fit-content;">
+                                  <div class="card-body" style="padding: .25rem;">
+                                    Selesai diproses
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <a href="./lihat_dokumen.html" class="btn btn-primary btn-icon-split">
+                                  <span class="text">Lihat Dokumen</span>
+                                </a>
+                              </td>
                             </tr>
                             <tr>
                               <td>Cedric Kelly</td>
                               <td>Senior Javascript Developer</td>
-                              <td>Edinburgh</td>
-                              <td>22</td>
-                              <td>2012/03/29</td>
-                              <td>$433,060</td>
-                            </tr>
-                            <tr>
-                              <td>Airi Satou</td>
-                              <td>Accountant</td>
-                              <td>Tokyo</td>
-                              <td>33</td>
-                              <td>2008/11/28</td>
-                              <td>$162,700</td>
-                            </tr>
-                            <tr>
-                              <td>Brielle Williamson</td>
-                              <td>Integration Specialist</td>
-                              <td>New York</td>
-                              <td>61</td>
-                              <td>2012/12/02</td>
-                              <td>$372,000</td>
-                            </tr>
-                            <tr>
-                              <td>Ashton Cox</td>
-                              <td>Junior Technical Author</td>
-                              <td>San Francisco</td>
-                              <td>66</td>
-                              <td>2009/01/12</td>
-                              <td>$86,000</td>
-                            </tr>
-                            <tr>
-                              <td>Cedric Kelly</td>
-                              <td>Senior Javascript Developer</td>
-                              <td>Edinburgh</td>
-                              <td>22</td>
-                              <td>2012/03/29</td>
-                              <td>$433,060</td>
-                            </tr>
-                            <tr>
-                              <td>Airi Satou</td>
-                              <td>Accountant</td>
-                              <td>Tokyo</td>
-                              <td>33</td>
-                              <td>2008/11/28</td>
-                              <td>$162,700</td>
-                            </tr>
-                            <tr>
-                              <td>Brielle Williamson</td>
-                              <td>Integration Specialist</td>
-                              <td>New York</td>
-                              <td>61</td>
-                              <td>2012/12/02</td>
-                              <td>$372,000</td>
+                              <td>Pengajuan Code review</td>
+                              <td>
+                                <div class="card bg-warning text-white shadow" style="width: fit-content;">
+                                  <div class="card-body" style="padding: .25rem;">
+                                    Sedang diproses
+                                  </div>
+                                </div>
+                              </td>
+                              <td>
+                                <a href="./lihat_dokumen.html" class="btn btn-primary btn-icon-split">
+                                  <span class="text">Lihat Dokumen</span>
+                                </a>
+                              </td>
                             </tr>
                           </tbody>
                         </table>
@@ -314,14 +281,11 @@
   <script src="js/sb-admin-2.min.js"></script>
 
   <!-- Page level plugins -->
-  <script src="assets/chart.js/Chart.min.js"></script>
+  <script src="assets/datatables/jquery.dataTables.min.js"></script>
+  <script src="assets/datatables/dataTables.bootstrap4.min.js"></script>
 
   <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
-  <script src="js/demo/chart-bar-demo.js"></script>
-
-  <!-- User defined script -->
+  <script src="js/demo/datatables-demo.js"></script>
 
 </body>
 
