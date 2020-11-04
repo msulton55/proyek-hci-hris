@@ -152,208 +152,43 @@
         <!-- End of Topbar -->
 
         <!-- Begin Page Content -->
-        <div class="container-fluid">
+        <div class="container-fluid no-height" style="height: calc(100vh - 100px); overflow-y: scroll;">
         
-          <!-- Page Heading - Content Navigation -->
-          <div class="d-sm-flex align-items-center justify-content-sm-start mb-3">
-            <a href="./riwayat.html" style="text-decoration: none;">
-              <div class="card border bg-success">
-                <div class="card-body no-width" style="padding: 0.25rem; width: 200px; text-align: center;">
-                  <h3 class="mb-0 text-white h5">Berdasarkan Term</h3>
-                </div>
-              </div>
-            </a>
-            <a href="./riwayat_jobdesc.html" style="text-decoration: none;">
-              <div class="card border">
-                <div class="card-body no-width" style="padding: 0.25rem; width: 200px; text-align: center;">
-                  <h3 class="mb-0 text-gray-800 h5">Berdasarkan Jobdesc</h3>
-                </div>
-              </div>
-            </a>
-            <a href="./riwayat_tunjangan.html" style="text-decoration: none;">
-              <div class="card border">
-                <div class="card-body no-width" style="padding: 0.25rem; width: 200px; text-align: center;">
-                  <h3 class="mb-0 text-gray-800 h5">Tunjangan</h3>
-                </div>
-              </div>
-            </a>
-          </div>
-
-          <!-- Content Row -->
-          <div class="row mb-4" style="height: calc(100vh - 175px);">
+          <!-- Content Row 1-->
+          <div class="row mb-4">
             
-            <!-- Tabel ringkasan pekerjaan -->
-            <div class="col-xl-6 col-md-6 h-100">
-              <div class="card shadow h-100 py-2">
-
-                <!-- Card Header -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h5 class="text-gray-800">Ringkasan Pekerjaan</h5>
+            <!-- Tabel Grafik Performa -->
+            <div class="col-xl col-md h-100">
+              <!-- Bar Chart -->
+              <div class="card shadow h-100">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Grafik Performa Individu</h6>
                 </div>
-                
-                <!-- Card Body -->
-                <div class="card-body" style="overflow-y: scroll;">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      
-                      <div class="card shadow h-100 py-1 mb-4" style="border-left: .25rem solid #5165af;">
-                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between" style="border-bottom: none;">
-                          <h6 class="text-gray-800">Headline 1</h6>
-                          <span class="text-gray-500">10 Juni 2020, 13:55 WIB</span>
-                        </div>
-                        <div class="card-body">
-                          <div style="text-align: justify;">
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="card shadow h-100 py-1 mb-4" style="border-left: .25rem solid #5165af;">
-                        <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between" style="border-bottom: none;">
-                          <h6 class="text-gray-800">Headline 1</h6>
-                          <span class="text-gray-500">10 Juni 2020, 13:55 WIB</span>
-                        </div>
-                        <div class="card-body">
-                          <div style="text-align: justify;">
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                            <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
+                <div class="card-body">
+                  <div class="chart-bar">
+                    <canvas id="myBarChart1"></canvas>
                   </div>
                 </div>
-
               </div>
             </div>
 
-            <!-- Tabel status karyawan -->
-            <div class="col-xl-6 col-md-6 h-100">
-              <div class="card shadow h-100 py-2">
+          </div>
 
-                <!-- Card Header -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h5 class="text-gray-800">Status Karyawan</h5>
+          <!-- Content Row 2-->
+          <div class="row mb-4">
+            
+            <!-- Tabel Grafik Performa -->
+            <div class="col-xl col-md h-100">
+              <!-- Bar Chart -->
+              <div class="card shadow h-100">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Grafik Performa Pekerjaan</h6>
                 </div>
-                
-                <!-- Card Body -->
-                <div class="card-body" style="overflow-y: scroll;">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      
-                      <div class="table-responsive">
-                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                          <thead>
-                            <tr>
-                              <th>Name</th>
-                              <th>Position</th>
-                              <th>Office</th>
-                              <th>Age</th>
-                              <th>Start date</th>
-                              <th>Salary</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td>Tiger Nixon</td>
-                              <td>System Architect</td>
-                              <td>Edinburgh</td>
-                              <td>61</td>
-                              <td>2011/04/25</td>
-                              <td>$320,800</td>
-                            </tr>
-                            <tr>
-                              <td>Garrett Winters</td>
-                              <td>Accountant</td>
-                              <td>Tokyo</td>
-                              <td>63</td>
-                              <td>2011/07/25</td>
-                              <td>$170,750</td>
-                            </tr>
-                            <tr>
-                              <td>Ashton Cox</td>
-                              <td>Junior Technical Author</td>
-                              <td>San Francisco</td>
-                              <td>66</td>
-                              <td>2009/01/12</td>
-                              <td>$86,000</td>
-                            </tr>
-                            <tr>
-                              <td>Cedric Kelly</td>
-                              <td>Senior Javascript Developer</td>
-                              <td>Edinburgh</td>
-                              <td>22</td>
-                              <td>2012/03/29</td>
-                              <td>$433,060</td>
-                            </tr>
-                            <tr>
-                              <td>Airi Satou</td>
-                              <td>Accountant</td>
-                              <td>Tokyo</td>
-                              <td>33</td>
-                              <td>2008/11/28</td>
-                              <td>$162,700</td>
-                            </tr>
-                            <tr>
-                              <td>Brielle Williamson</td>
-                              <td>Integration Specialist</td>
-                              <td>New York</td>
-                              <td>61</td>
-                              <td>2012/12/02</td>
-                              <td>$372,000</td>
-                            </tr>
-                            <tr>
-                              <td>Ashton Cox</td>
-                              <td>Junior Technical Author</td>
-                              <td>San Francisco</td>
-                              <td>66</td>
-                              <td>2009/01/12</td>
-                              <td>$86,000</td>
-                            </tr>
-                            <tr>
-                              <td>Cedric Kelly</td>
-                              <td>Senior Javascript Developer</td>
-                              <td>Edinburgh</td>
-                              <td>22</td>
-                              <td>2012/03/29</td>
-                              <td>$433,060</td>
-                            </tr>
-                            <tr>
-                              <td>Airi Satou</td>
-                              <td>Accountant</td>
-                              <td>Tokyo</td>
-                              <td>33</td>
-                              <td>2008/11/28</td>
-                              <td>$162,700</td>
-                            </tr>
-                            <tr>
-                              <td>Brielle Williamson</td>
-                              <td>Integration Specialist</td>
-                              <td>New York</td>
-                              <td>61</td>
-                              <td>2012/12/02</td>
-                              <td>$372,000</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-
-                    </div>
+                <div class="card-body">
+                  <div class="chart-bar">
+                    <canvas id="myBarChart2"></canvas>
                   </div>
                 </div>
-                  
-                  
-
               </div>
             </div>
 
