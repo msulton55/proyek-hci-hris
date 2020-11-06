@@ -2,7 +2,7 @@
 
 ## Anggota Kelompok
 1. Muhammad Sulton Tauhid (1606905885)
-2. Eko (17)
+2. Eko satria (1706043185)
 3. Alwan Fadhil (1706103461)
 
 ## Deskripsi tugas proyek
