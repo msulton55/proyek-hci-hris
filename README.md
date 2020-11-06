@@ -3,7 +3,7 @@
 ## Anggota Kelompok
 1. Muhammad Sulton Tauhid (1606905885)
 2. Eko (17)
-3. Alwan (17)
+3. Alwan Fadhil (1706103461)
 
 ## Deskripsi tugas proyek
 Membuat sistem frontend Human Resources Information System
