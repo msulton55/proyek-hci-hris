@@ -21,6 +21,14 @@
 
 /* User-defined CSS */
 
+#dataTable_filter {
+  float: right;
+}
+
+#dataTable_paginate {
+  float: right;
+}
+
 .sidebar.toggled .nav-item .collapse {
   position: fixed;
   top: 30%;
@@ -50,6 +58,18 @@
 
   .no-width {
     width: auto !important;
+  }
+
+  .table-responsive #dataTable_wrapper > .row + .row{
+    overflow-x: scroll;
+  }
+
+  #dataTable_filter {
+    float: left;
+  }
+  
+  #dataTable_paginate {
+    float: left;
   }
 
 }
