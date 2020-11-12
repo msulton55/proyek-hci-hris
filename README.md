@@ -21,7 +21,7 @@ Sistem ini menggunakan __theme color__ berwarna __steelblue__ dengan kode **hex 
 Sistem ini secara dominan menggunakan komponen __cards__,__button__, __formatted textfield__, __charts__ dan __table__ untuk menampilkan informasi penting. Tujuannya dari kelima komponen tersebut adalah fleksibilitas dan tampilan yang kekinian.
 
 #### Komponen formatted textfield
-![formatted textfield]()
+![formatted textfield](https://www.github.com/msulton55/proyek-hci-hris/blob/development/cards.png?raw=true)
 
 #### Komponen button
 ![colourful-button]()
