@@ -24,16 +24,16 @@ Sistem ini secara dominan menggunakan komponen __cards__,__button__, __formatted
 <img src="./img/readme/formatted-textfield.png" alt="formatted-textfield" />
 
 #### Komponen button
-![colourful-button]()
+<img src="./img/readme/colourful-buttons.png" alt="colourful-buttons" />
 
 #### Komponen cards
-![cards]()
+<img src="./img/readme/cards.png" alt="cards" />
 
 #### Komponen charts
-![charts]()
+<img src="./img/readme/graph.png" alt="graph" />
 
 #### Komponen tables
-![responsive-tables]()
+<img src="./img/readme/responsive-tables.png" alt="responsive-tables" />
 
 ## Fitur halaman
 Fitur halaman yang disediakan terdiri dari 5 fitur utama:
