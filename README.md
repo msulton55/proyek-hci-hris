@@ -1,6 +1,6 @@
 # Proyek Tengah Semester [HCI-HRIS](https://proyek-hci-hris.herokuapp.com)
 
-## Anggota Kelompok
+## Anggota kelompok
 1. Muhammad Sulton Tauhid (1606905885) **KETUA**
 2. Eko satria (1706043185)
 3. Alwan Fadhil (1706103461)
@@ -46,7 +46,7 @@ Fitur halaman yang disediakan terdiri dari 5 fitur utama:
 4. Dokumen
 5. Kegiatan
 
-## Cara Menggunakan (localhost)
+## Cara menggunakan (localhost)
 1. Pindah terlebih dahulu ke **branch development**
 2. Lakukan **git clone** pada repositori branch development
 3. Lakukan **[npm](https://nodejs.org/en/download/) install** di dalam directory folder proyek ini
