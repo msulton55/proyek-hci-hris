@@ -1,7 +1,7 @@
 # Proyek Tengah Semester [HCI-HRIS](https://proyek-hci-hris.herokuapp.com)
 
 ## Anggota Kelompok
-1. Muhammad Sulton Tauhid (1606905885)
+1. Muhammad Sulton Tauhid (1606905885) **KETUA**
 2. Eko satria (1706043185)
 3. Alwan Fadhil (1706103461)
 
@@ -25,3 +25,8 @@ Fitur halaman yang disediakan terdiri dari 5 fitur utama:
 3. Lakukan **[npm](https://nodejs.org/en/download/) install** di dalam directory folder proyek ini
 4. Setelah folder **node_modules terinstall**, lakukan **npm run start** pada command prompt atau CLI untuk memulai localhost development
 5. Sistem frontend berhasil dijalankan
+
+## Tech Stack yang digunakan
+1. HTML5
+2. Bootstrap 4
+3. Javascript -> GulpJs, NodeJs dan Browsersync.Js
