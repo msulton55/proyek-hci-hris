@@ -9,7 +9,31 @@
 Membuat sistem frontend Human Resources Information System
 
 ## Penjelasan umum
-Proyek ini adalah sistem frontend yang dapat digunakan untuk sistem perusahaan atau sistem civitas akademika kampus. Sistem ini dapat memasukkan user input dan juga sebagai user output
+Proyek ini adalah sistem frontend yang dapat digunakan untuk sistem perusahaan atau sistem civitas akademika kampus yang berfungsi sebagai sistem admin. Sistem ini dapat memasukkan informasi berupa dokumen dengan disediakan Textview agar user dapat melakukan input dan menunjukkan hasil dokumennya pada card yang disediakan.
+
+Aplikasi ini penting karena aplikasi ini dapat merekam informasi berupa dokumen penting. Misalnya, pada suatu perusahaan dibutuhkan pencatatan dokumen secara daring, maka sistem admin ini dapat memasukkan dokumen dan melihatnya.
+
+## Filosofi UI/UX
+### Warna
+Sistem ini menggunakan __theme color__ berwarna __steelblue__ dengan kode **hex #5165af**. Warna ini memiliki arti **profesionalitas**.
+
+### Komponen
+Sistem ini secara dominan menggunakan komponen __cards__,__button__, __formatted textfield__, __charts__ dan __table__ untuk menampilkan informasi penting. Tujuannya dari kelima komponen tersebut adalah fleksibilitas dan tampilan yang kekinian.
+
+#### Komponen formatted textfield
+![formatted textfield]()
+
+#### Komponen button
+![colourful-button]()
+
+#### Komponen cards
+![cards]()
+
+#### Komponen charts
+![charts]()
+
+#### Komponen tables
+![responsive-tables]()
 
 ## Fitur halaman
 Fitur halaman yang disediakan terdiri dari 5 fitur utama:
