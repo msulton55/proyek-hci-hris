@@ -15,7 +15,10 @@ Aplikasi ini penting karena aplikasi ini dapat merekam informasi berupa dokumen 
 
 ## Filosofi UI/UX
 ### Warna
-Sistem ini menggunakan __theme color__ berwarna __steelblue__ dengan kode **hex #5165af**. Warna ini memiliki arti **profesionalitas**.
+Sistem ini menggunakan _theme color_ berwarna _steelblue_ dengan kode __hex #5165af__. Warna ini memiliki arti **profesionalitas**.
+
+### Animasi
+Sistem ini menggunakan _smooth transition animation_ misalnya pada komponen __cards__ yang berisi table. Kemudian __sidebar nav__ yang juga menggunakan _animation dropdown_. __Graph__ juga menggunakan animasi ketika browser onload. Animasi ini digunakan untuk membuat website lebih __interaktif__. 
 
 ### Komponen
 Sistem ini secara dominan menggunakan komponen __cards__,__button__, __formatted textfield__, __charts__ dan __table__ untuk menampilkan informasi penting. Tujuannya dari kelima komponen tersebut adalah fleksibilitas dan tampilan yang kekinian.
